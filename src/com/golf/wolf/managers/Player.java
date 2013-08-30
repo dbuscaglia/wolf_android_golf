@@ -5,7 +5,6 @@ import com.activeandroid.annotation.Column;
 import com.activeandroid.annotation.Table;
 
 import android.content.ContentValues;
-import android.graphics.drawable.Drawable;
 
 @Table(name = "Players")
 public class Player extends Model {
