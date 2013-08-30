@@ -9,6 +9,9 @@ import android.graphics.drawable.Drawable;
 @Table(name = "Players")
 public class Player extends Model {
 	
+	@Column(name = "_id")
+	public int _id;
+	
 	@Column(name = "Name")
 	public String name;
 	
